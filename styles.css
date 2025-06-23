@@ -1,0 +1,51 @@
+/* Botón personalizado */
+.btn-primary {
+  background-color: #ff5733;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #ff784e;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Card estilo personalizado */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Imagen del header */
+header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Media queries */
+@media (max-width: 576px) {
+  body {
+    background-color: #e0f7fa;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  body {
+    background-color: #f1f8e9;
+  }
+}
+
+body {
+    background-color: aqua;
+}
